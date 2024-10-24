@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>My TicTacToe</li>
+        </ul>
+    </nav>
+
+    <div>
+        <button id="mode">Change Mode</button>
+     </div>
+
+    <!-- create a div to create the grid for the tic tac toe  -->
+     <div class="game">
+        <!-- create a left div for the grid  -->
+         
+        <div class="left">
+            
+<!--  create 9 div corresponding to 9 box in tic tac toe -->
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+            <div class="box"><span class="boxtext"></span> </div>
+          
+
+
+        </div>
+        <!-- create a right div to diplay the score of user -->
+        <div class="right">
+            <h1 style="width: 500px;">Welcome to the tic-tac-toe show</h1>
+            <div >
+                <span class= "info"></span>
+                <br>
+                <br>
+            <button id="reset">reset </button>
+            </div>
+            
+            <div class ="vidbox"><video  id="myvid"src="img2.mp4"></video>
+            </div>
+            <!-- <div class="imgbox"><img src="img1.mp4" alt=""></div> -->
+
+        </div>
+
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
